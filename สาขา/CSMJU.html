@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body {
+      font-family: "Lato", sans-serif;
+    }
+    
+    /* Fixed sidenav, full height */
+    .sidenav {
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+      padding-top: 20px;
+      
+    }
+    
+    /* Style the sidenav links and the dropdown button */
+    .sidenav a, .dropdown-btn {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #ffffff;
+      display: block;
+      border: none;
+      background: none;
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+      outline: none;
+    }
+    
+    /* On mouse-over */
+    .sidenav a:hover, .dropdown-btn:hover {
+      color: #f1f1f1;
+    }
+    
+    /* Main content */
+    .main {
+      margin-left: 200px; /* Same as the width of the sidenav */
+      font-size: 20px; /* Increased text to enable scrolling */
+      padding: 0px 10px;
+    }
+    
+    /* Add an active class to the active dropdown button */
+    .active {
+      background-color: rgb(0, 173, 253);
+      color: white;
+    }
+    
+    /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+    .dropdown-container {
+      display: none;
+      background-color: #262626;
+      padding-left: 8px;
+    }
+    
+    /* Optional: Style the caret down icon */
+    .fa-caret-down {
+      float: right;
+      padding-right: 8px;
+    }
+    
+    /* Some media queries for responsiveness */
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    </style>
+<body>
+    <div>
+        <img src="imgcsmju/ปก.jpg" width= 100% height=100%>
+       
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+            <h2 class="w3-wide">COMPUTER SCIENCE</h2>
+            <p class="w3-justify">The university's educational philosophy is “providing education to enhance wisdom in a form of practice-based learning that is integrated with working according to the Amata teachings. 
+              Hard work never kills people. aimed at learners have lifelong learning skills can develop old skills Build new skills There is a way of thinking about being an entrepreneur. 
+              Digital technology and communication are used. have social awareness culture and environment uphold the relationship between the university and the community According to Maejo University's position that "University of Life" (Meeting of Maejo University Council give approval in the meeting No. 7/2020 dated 8 September 2020 according to the details of the letter No. Wor 68.1.1.2/Wor142 dated 11 September 2020)
+
+
+              The curriculum's educational philosophy is “producing graduates with morality, ethics, leadership and social creation through academics. 
+              specializing in computer science and information technology."</p>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-third">
+                    <p>Facebook</p>
+                    <a href="https://web.facebook.com/computersciencemju/"><img src="imgcsmju/facebook.png"class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%"></a>
+                    
+                </div>
+                <div class="w3-third">
+                    <p>Comcamp</p>
+                    <a href="https://www.facebook.com/CCCSMJU"><img src="imgcsmju/comcam.png"class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%"></a>
+                </div>
+                <div class="w3-third">
+                  <p>QR code</p>
+                  <img src="imgcsmju/QR.jpg"class="w3-round w3-margin-bottom" alt="Random Name" style="width:50%"></a>
+              </div>
+            </div>
+        </div>
+    </div>
+
+<div class="sidenav">
+    <button class="dropdown-btn White">MENU<i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-container">
+        <button class="dropdown-btn">เกี่ยวกับสาขา<i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-container">
+        <a href="http://csmju.jowave.com/history.php">แนะนำสาขา</a>
+        <a href="http://csmju.jowave.com/room.php">ห้องเรียนสาขา</a>
+        <a href="http://csmju.jowave.com/personaltea.php">คณาจารย์</a>
+        <a href="http://csmju.jowave.com/personaloff.php">เจ้าหน้าที่</a>
+        <a href="http://csmju.jowave.com/personaloff.php">การประกันคุณภาพการศึกษา</a>
+        <a href="http://csmju.jowave.com/location.php">ติดต่อเรา</a>
+        <a href="http://csmju.jowave.com/managementchart.php">โครงสร้างการบริการ</a>
+        <a href="http://csmju.jowave.com/course.php">หลักสูตรที่เปิดสอน</a>
+        <a href="#">เพิ่มเติม</a>
+        </div>
+
+        <button class="dropdown-btn">ระบบ E-Learning<i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-container">
+        <a href="http://csmju.jowave.com/cs100/">สำหรับนักศึกษารหัส 55-56</a>
+        <a href="http://csmju.jowave.com/cs100_v2/">สำหรับนักศึกษารหัส 57-63</a>
+    </div> 
+
+    <button class="dropdown-btn">ระบบสาระสนเทศ<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-container">
+        <a href="#">ทั่วไป</a>
+        <a href="#">วัสดุอุปกรณ์</a>
+        <a href="#">ระบบการเงิน</a>
+        <a href="#">วิชาเปิดสอน</a>
+        <a href="#">วิดีโอการสอน</a>
+        <a href="#">CSMJU</a>
+        <a href="#">SMART CSMJU</a>
+    </div>
+    <button class="dropdown-btn">บริการอื่น<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-container">
+        <a href="#">ร้องเรียนออนไลน์</a>
+        <a href="#">แจ้งข่าว</a>
+        <a href="#">แจ้งซ้อม</a>
+        <a href="#">Add-Drop Online</a>
+    </div>  
+</div>
+    
+<button class="dropdown-btn ">Login<i class="fa fa-caret-down "></i></button>
+<div class="dropdown-container ">
+<table><tr>
+    <td><font color="FFFFFF">Username</font></td>
+    <td><input type="text" name="stuname" id="stuname"></td>
+    
+</tr>
+<tr>
+    <td><font color="FFFFFF">password</font></td>
+    <td><input type="password" Text="pssword" id="pssword"></td>
+</tr>
+
+</table>
+<tr>
+    <center><input type="submit" name="btnSubmit" value="เข้าสู่ระบบ"></center>
+</tr>
+</div>   
+      
+
+    
+    
+  
+
+  <script>
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+    
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+      } else {
+      dropdownContent.style.display = "block";
+      }
+      });
+    }
+    </script>
+    
+</body>
+</html>
